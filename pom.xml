@@ -7,7 +7,13 @@
     <groupId>design.contract</groupId>
     <artifactId>libtxref</artifactId>
     <version>1.1-SNAPSHOT</version>
-
+	<distributionManagement>
+	   	<repository>
+	    	<id>github</id>
+			<name>GitHub azuzi libtxref-java</name>
+			<url>https://maven.pkg.github.com/azuzi/libtxref-java</url>
+   		</repository>
+   </distributionManagement>
     <properties>
       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
